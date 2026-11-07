@@ -1,0 +1,21 @@
+{
+  "name": "cumeeira-crm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo CRM for a real-estate agency: listings, leads by source, visits, proposal funnel and commissions. Fictional data only.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": { "vue": "^3.5.45" },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0",
+    "vue-tsc": "^3.3.14"
+  }
+}
